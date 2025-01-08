@@ -3,10 +3,10 @@ Types:
  deb-src
 URIs: http://deb.debian.org/debian/
 Suites:
- trixie
-# trixie-updates
-# trixie-proposed-updates
- trixie-backports
+ testing
+# testing-updates
+# testing-proposed-updates
+ testing-backports
 Components:
  main
  contrib
@@ -20,7 +20,7 @@ Types:
  deb
  deb-src
 URIs: http://deb.debian.org/debian-security
-Suites: trixie-security
+Suites: testing-security
 Components:
  main
  contrib

@@ -25,7 +25,7 @@ these scripts assume that you are running debian testing and didn't configure an
 the commands below will automate the following:
 
 - remove your sources.list
-- add deb822.sources for trixie and sid with all suites enabled by default
+- add deb822.sources for testing and sid with all suites enabled by default
 - set a low pinning for sid to 100. see [apt_preferences](https://manpages.debian.org/testing/apt/apt_preferences.5.en.html) for more information.
 - configure debsecan to run with each `apt update`
 
