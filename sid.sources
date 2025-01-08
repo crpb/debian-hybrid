@@ -1,8 +1,15 @@
-Types: deb deb-src
-URIs: http://deb.debian.org/debian
-Suites: sid
-Components: main contrib non-free non-free-firmware
+Types:
+ deb
+ deb-src
+URIs: http://deb.debian.org/debian/
+Suites:
+ sid
+Components:
+ main
+ contrib
+ non-free-firmware
+ non-free
 Enabled: yes
 Signed-By:
- /etc/apt/trusted.gpg.d/debian-archive-bookworm-automatic.asc
- /etc/apt/trusted.gpg.d/debian-archive-bookworm-security-automatic.asc
+ /usr/share/keyrings/debian-archive-keyring.gpg
+
